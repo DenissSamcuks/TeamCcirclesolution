@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Circle Solutions</title>
+	<title>Team C Project</title>
 </head>
 <body>
 
-<h1>Project Period 1 </h1>
+
+<h1> Circle Solutions </h1>
+<h2> We provide software solutions to business globally </h2>
+
 
 </body>
 </html>
