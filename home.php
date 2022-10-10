@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Circle Solutions</title>
+	<title>Team C Project</title>
 </head>
 <body>
 
