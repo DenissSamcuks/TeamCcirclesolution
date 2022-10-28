@@ -265,7 +265,7 @@ h2, h3{
 }
 
 .form-container .btn {
-    background-color: #1976D2;
+    background-color: #799DAB;
     color: white;
     padding: 16px 20px;
     border: none;
@@ -278,7 +278,7 @@ h2, h3{
 }
 
 .form-container .cancel {
-    background-color: #448AFF;
+    background-color: #799DAB;
 }
 
 .form-container .btn:hover, .open-button:hover {
