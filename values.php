@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <title>Circle Solutions</title>
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="values.css">
   <script type="text/javascript" src="email.js"></script>
   <script src="main.js" defer type="text/javascript"></script>
 </head>
@@ -20,7 +20,7 @@
        </div>
 
       <ul id="navigation" data-visible="false" class="navigation">
-          <li><a href="index.php" class="style">Home</a></li>
+          <li><a href="index.php" class="style active">Home</a></li>
           <li><a href="reviews.php" class="style">Reviews</a></li>
           <li><a href="values.php" class="style">Values</a></li>
           <li><a href="contact.php" class="style">Contact</a></li>
@@ -31,54 +31,42 @@
         <button class="mobile-nav-toggle" aria-controls="navigation" aria-expanded="false"><span class="sr-only"></span>
         </button>
   </header>
-  <sect1>
+  
+  <main>
 
-    <div class="content1">
-        <div class="pad">
-          <h1>We provide<br>software solutions<br>to businesses<br>globally</h1>
-          <a href="Packages.html"><button class="button button2">View Packages</button></a> 
-        </div>
+  	<div class="container">
 
-        <div>
-           <img src="img/globe.png" width="600px">
-         </div>
-      
-    </div>
-    
-  </sect1>
+<div class="text-container">
 
+	<div class="val">
+		<h1> Values </h1>
+	</div>
 
-  <sect2>
-    <div class="content2">
-      <div >
-           <img src="img/plans.png" width="500px">
-         </div>
+			<div class="padd">
+			<h2> Down to Earth </h2>
+			<p> We  love to keep things simple, No big gestures, no theathre or promising Utopias </p>
+			</div>
+	
+			<div class="padd">
+			<h2> Quality Driven </h2>
+			<p> Our profesionalism doesn't follow hypes: it follows quality. We believe in ever growing and striving for the best. </p>
+			</div>
+	
+			<div class="padd">
+			<h2> User friendly </h2>
+			<p> With our soluition we build bridges between user and systems. </p>
+			</div>
+	</div>
+	
+	<div class="img-size">
+		<img src="img/values.png">
+	</div>
 
-        <div class="pad2">
-          <h1>We connect the dot to develop software that fit like a glove</h1> 
-        </div>
-    </div>
-
-      <hr class="style">
-  </sect2>
-<sect3>
-	<div class="content3">
-    <div class="trusted">
-        <h2>Trusted Partners</h2>
-      </div>
-
-      <div class="img-container">
-  <img class="items" src="img/esdal.png">
-    <img class="items" src="img/carmel.png">
-	  <img class="items" src="img/hondsrug.png">
-	    <img class="items" src="img/nhl.png">
-		  <img class="items" src="img/terra.png">
-		    <img class="items" src="img/dc.png">
-  </div>
 </div>
-  </sect3>
+  
+  </main>
 
- <footer>
+  <footer>
     <div class="footer-wrap">
 		<div class="subscribe">
         <h2>Newsletter</h2>
@@ -110,6 +98,7 @@
 		</div>
 	</div>
   </footer>
+
 </body>
 
 </html>
