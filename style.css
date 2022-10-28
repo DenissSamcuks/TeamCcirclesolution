@@ -2,20 +2,36 @@
     margin: 0;
     padding: 0;
 }
+@import url(https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Poppins:ital,wght@0,400;0,600;1,500;1,600&family=Roboto:wght@300;400;500&display=swap);
 .Isten 
 {
 	display:flex;
 	text-align:center;
 	align-items: center;
 	width: 100%;
-	height: 187px;
-	left: 0px;
-	top: 75px;
+	height: 10.5vw;
+	top: 4vw;
 	background: #DCF1FB;
 	opacity: 0.63;
 	justify-content: center;
-	font-size: 50px;
+	font-size: 3.125rem;
+	
 }
+@media only screen and (max-width: 740px){
+.Isten{
+	height: 15vw;
+	font-size: 1.625rem;`
+}
+}	
+ 
+@media only screen and (max-width: 740px){
+#logo{
+	width: 25.3vw;
+	height: 8vw;
+	margin-top: 2.5vw;
+	margin-left: 3vw;
+}
+} 
 
 #grid
 {
@@ -27,7 +43,7 @@
 	width: 100%;
 	flex-direction: column;
 	position: relative ;
-	margin-top: 30px;
+	margin-top: 3vw;
 	
 }
 
@@ -36,7 +52,7 @@
 	width: 100%;
 	flex-direction: column;
 	position: relative ;
-	margin-top: 30px;
+	margin-top: 3vw;
 }
 
 .faq-column1{
@@ -46,7 +62,16 @@
 	align-items: center;
 	height: 100 px;
 	grid-column: 3/7;
-	padding: 30px;
+	padding: 2.5vw;
+}
+
+@media only screen and (max-width: 740px){
+.faq-column1{
+display: flex;
+flex-direction: colum;	
+grid-column: 2/12;
+justify-content: space-between;
+}	
 }
 
 .faq-column2{
@@ -55,25 +80,50 @@
 	text-align:left;
 	height: 100 px;
 	grid-column: 7/11;
-	padding: 30px;
+	padding: 2.9vw;
+}
+
+@media only screen and (max-width: 740px){
+.faq-column2{
+display: flex;
+flex-direction: colum;
+grid-column: 2/12;
+justify-content: space-between;
+} 
 }
 
 .p1{
-	margin-top: 40px;
-	font-size: 20px;
-	
+	margin-top: 2.0vw;
+	font-size: 1.5rem;	
+}
+
+@media only screen and (max-width: 740px){
+.p1{
+	font-size: 0.625rem;
+}
 }
 
 .h2{
-	margin-top: 20px;
-	font-size: 24px;
+	margin-top: 2.0vw;
+	font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 740px){
+.h2{
+font-size: 0.625rem;	
+}
 }
 
 .h3{
-	font-size: 24px;
+	font-size: 1.8rem;
 }
 
- 
+ @media only screen and (max-width: 740px){
+.h3{
+font-size: 0.625rem;	
+}
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Poppins:ital,wght@0,400;0,600;1,500;1,600&family=Roboto:wght@300;400;500&display=swap');
 
 
@@ -85,38 +135,59 @@ a:hover {
 .logo {
     grid-column: 3/4;
 }
+@media only screen and (max-width: 740px){
+.logo
+{
+	height:1vw;
+	width:1.5vw;
+}
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(13, 1fr);
 	grid-template-rows: 1fr, 2fr, 3fr, 4fr;
     background-color: white;
-    width: 1440px;
-    height: 75px;
+    width: 100%;
+    height: 4.0vw;
+	margin-bottom: 1vw;
+}
+
+@media only screen and (max-width: 740px){
+.container{
+	height: 13vw;
+}
 }
 .containerimg {
     grid-column: 1/2;
-    margin-left: 65px;
+    margin-left: 3.9vw;
 }
 
 .homelink {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 24px;
     text-transform: capitalize;
     color: #799DAB;
     grid-column: 7/8;
     margin-top: 20px;
     text-decoration: none;
-	margin-right: 40px;
+	margin-right: 4vw;
 }
 
+@media only screen and (max-width: 740px){
+.homelink{
+	display: none;
+}
+
+}
 .revlink {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 24px;
     text-transform: capitalize;
     color: #799DAB;
@@ -126,11 +197,17 @@ a:hover {
 	margin-right: 40px;
 }
 
+@media only screen and (max-width: 740px){
+.revlink{
+	display: none;
+}
+}
+
 .valuelink {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 24px;
     text-transform: capitalize;
     color: #799DAB;
@@ -140,11 +217,18 @@ a:hover {
 	margin-right: 40px;
 }
 
+@media only screen and (max-width: 740px){
+.valuelink{
+	display: none;
+}
+
+}
+
 .contlink {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 24px;
     text-transform: capitalize;
     color: #799DAB;
@@ -155,11 +239,17 @@ a:hover {
 
 }
 
+@media only screen and (max-width: 740px){
+.contlink{
+     display: none;
+}
+
+}
 .faqlink {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 24px;
     text-transform: capitalize;
     color: #799DAB;
@@ -169,6 +259,12 @@ a:hover {
 	margin-right: 40px;
 }
 
+@media only screen and (max-width: 740px){
+.faqlink{
+	display: none;
+}
+
+}
 
 .button {
     font-family: 'Poppins', sans-serif;
@@ -185,28 +281,30 @@ a:hover {
     align-items: center;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 106.5%;
     padding: .2em 1em;
     margin-top: 10px;
 	margin-right: 40px;
 	
 }
+
+@media only screen and (max-width: 740px){
+.button{
+	display:none;
+}
+
+}
+
 .button:hover {
     background: #F58A07;
     color: white;
     -webkit-transition: all .3s linear;
 }
 
-
-
-
-
-
-
-
-
-
+.all-rights{
+font-size: 1.25rem;	
+}
 
 .appman {
     grid-column: 1/2;
@@ -225,9 +323,9 @@ main {
 }
 
 footer {
-    margin-top: 10px;
+    margin-top: auto;
     width: 100%;
-    height: 175px;
+    height: 184px;
     background-color: #C7EAF9;
     display: flex;
     justify-content: space-between;
@@ -279,6 +377,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
     font-family: 'Roboto', sans-serif;
     color: #799DAB;
 }
+
+@media only screen and (max-width: 740px){
+.form-container{
+    max-width: 100px;
+}
+}
 .form-container h2 {
     color: #799DAB;
 }
@@ -316,3 +420,81 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .form-container .btn:hover, .open-button:hover {
     opacity: 1;
 }
+
+@media only screen and (max-width: 740px){
+.footer{
+	display: flex;
+	height: 47vw;
+	background-color: #C7EAF9;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom:3vw;
+}
+}
+
+@media only screen and (max-width: 740px){
+.newsletter{
+	text-align:center;
+	font-size: 1.25rem;
+	margin-bottom: 2.2vw;
+	margin-top: 2.3vw;
+}
+}
+
+@media only screen and (max-width: 740px){
+.paragraf-news1{
+	text-align:center;
+	font-size: 0.7rem;
+}
+}
+
+@media only screen and (max-width: 740px){
+.paragraf-news2{
+	text-align:center;
+	font-size: 0.7rem;
+	margin-bottom: 2.8vw;
+}
+}
+
+@media only screen and (max-width: 740px){
+.open-button {
+	 background-color: white;
+	 color: black;
+	 width: 14rem;
+	 text-align:center;
+}
+}
+
+
+@media only screen and (max-width: 740px){
+.item-ift{
+	height: 2vw;
+	width: 2vw
+}
+#i{
+	width: 5.3vw;
+	height: 5.3vw;
+}
+
+#f{
+	width: 5.3vw;
+	height: 5.3vw;
+}
+
+#t{
+	width: 5.3vw;
+	height: 5.3vw;
+}
+
+@media only screen and (max-width: 740px){
+.all-rights{
+	font-size: 0.638rem;
+	margin-bottom: 3vw;
+}
+}
+
+footer p {
+    font-family: 'Roboto Regular', sans-serif;
+}
+

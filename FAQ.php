@@ -4,13 +4,14 @@
     <link href="style.css" rel="stylesheet" type=text/css>
     <script type="text/javascript" src="email.js"></script>
     <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
     <title>Title</title>
 </head>
 <body>
 <header>
     <div class="container">
         <div class="containerimg">
-            <a href=""><img src="img/logo.png" alt="img" height="65px", width="195px"></a>
+            <a href=""><img id="logo" src="img/logo.png" alt="img" height="65px", width="195px"></a>
         </div>
         <a href="" class="homelink">Home</a>
         <a href="" class="revlink">Reviews</a>
@@ -21,7 +22,7 @@
 	     </div>
 		 
 		 <div>
-		 <p class="Isten" style="font-size:275%;" ><strong> Frequently Asked Questions</strong></p>
+		 <p class="Isten";" ><strong> Frequently Asked Questions</strong></p>
 		 </div>
 		 
 	  <div id="grid">
@@ -98,13 +99,13 @@
 		  
 </header>
 
-<footer>
+<footer class="footer" >
     <div>
-        <h2>Newsletter</h2>
-        <p>Want to know what we’re up to?</p>
-        <p>Sign up for the newsletter and join our tribe</p>
+        <h2 class="newsletter" >Newsletter</h2>
+        <p class="paragraf-news1" >Want to know what we’re up to?</p>
+        <p class="paragraf-news2">Sign up for the newsletter and join our tribe</p>
         <button class="open-button" onclick="openForm()">Subscribe</button>
-        <div class="form-popup" id="myForm">
+        <div class="form-popup" id="myForm" style="display:none">
             <form action="#" class="form-container">
                 <label for="name"><b>Name</b></label>
                 <input type="text" placeholder=" Your name" name="name" required>
@@ -116,10 +117,10 @@
         </div>
     </div>
     <div>
-        <a href="https://www.instagram.com/"><img src="img/img_1.png" alt="img" height="49.33px" width="50.16px" style="margin-right: 20px"></a>
-        <a href="https://www.facebook.com/"><img src="img/img_2.png" alt="img" height="49.33px" width="50.16px" style="margin-right: 20px"></a>
-        <a href="https://twitter.com/"><img src="img/img_3.png" alt="img" height="49.33px" width="50.16px"></a>
-        <p style="margin-top: 20px; font-size: 20px;", >2022. All right reserved</p>
+        <a class="item-ift" href="https://www.instagram.com/"><img id="i" src="img/img_1.png" alt="img" height="49.33px" width="50.16px" style="margin-right: 20px"></a>
+        <a class="item-ift" href="https://www.facebook.com/"><img id="f" src="img/img_2.png" alt="img" height="49.33px" width="50.16px" style="margin-right: 20px"></a>
+        <a class="item-ift"href="https://twitter.com/"><img id="t" src="img/img_3.png" alt="img" height="49.33px" width="50.16px"></a>
+        <p class="all-rights" >©2022,All rights reserved</p>
     </div>
 </footer>
 </body>
