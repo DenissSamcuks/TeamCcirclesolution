@@ -110,7 +110,7 @@ h1 {
 	line-height: 55px;
 }
 .pad {
-	padding: 120px 0px;
+	padding: 150px 0px;
 	color: #1D3444;
 }
 
@@ -222,7 +222,7 @@ footer {
 }
 
 p.merge {
-	margin: -16px 0px 16px 0px;
+	margin: -10px 0px 10px 0px;
 	line-height: 20px;
 
 }
@@ -237,7 +237,7 @@ p.merge {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 20px 0px;
+	margin: 30px 0px;
 	color: #1D3444;
 }
 
@@ -246,6 +246,82 @@ p.merge {
 	width: 40px; 
 	height: 40px;
 }
+
+.open-button {
+    background-color: #799DAB;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    width: 280px;
+    margin-top: 2px ;
+    margin-bottom: 5px;
+}
+
+
+.open-button:hover {
+    background: #F58A07;
+    color: white;
+    -webkit-transition: all .3s linear;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: #799DAB;
+}
+.form-container h2 {
+    color: #799DAB;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .btn {
+    background-color: #799DAB;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form-container .cancel {
+    background-color: #799DAB;
+}
+
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
 
 @media (max-width: 1081px) {
 
@@ -519,7 +595,7 @@ a.style{
 	footer {
 	grid-column: 1/13;
 	background-color: #C7EAF9;
-	height: 180px;
+	height: 220px;
 }
 	
 	
