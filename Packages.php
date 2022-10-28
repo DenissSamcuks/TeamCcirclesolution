@@ -153,7 +153,7 @@
             </div>
         </div>
 
-        <div class="anal palka">
+        <div class="analis palka">
             <div class="big">
                 <p>Analyse and</p>
                 <p>optimize</p><br>
