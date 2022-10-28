@@ -52,7 +52,7 @@
 	</div>
 		
 		<div id="reviewImage">
-		<img src="online review.png">
+		<img src="img/online review.png">
 		</div>
 	
 	</div>
