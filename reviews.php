@@ -20,12 +20,12 @@
        </div>
 
       <ul id="navigation" data-visible="false" class="navigation">
-          <li><a href="index.html" class="style active">Home</a></li>
-          <li><a href="reviews.html" class="style">Reviews</a></li>
-          <li><a href="values.html" class="style">Values</a></li>
-          <li><a href="contact.html" class="style">Contact</a></li>
-          <li><a href="faq.html" class="style">FAQ</a></li>
-          <li><a href="Packages.html"><button class="button button1">Our Packages</button></a></li>
+          <li><a href="index.php" class="style active">Home</a></li>
+          <li><a href="reviews.php" class="style">Reviews</a></li>
+          <li><a href="values.php" class="style">Values</a></li>
+          <li><a href="contact.php" class="style">Contact</a></li>
+          <li><a href="faq.php" class="style">FAQ</a></li>
+          <li><a href="Packages.php"><button class="button button1">Our Packages</button></a></li>
         </ul>
 
         <button class="mobile-nav-toggle" aria-controls="navigation" aria-expanded="false"><span class="sr-only"></span>
