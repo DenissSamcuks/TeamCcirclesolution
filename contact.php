@@ -35,13 +35,10 @@
 <div class="We’d">
     <h1 class="We’dh1">We’d Love to hear from you</h1>
     <div class="We’dh1">
-        <p class="psize">if you have a question about features, trials, pricing,
-        </div>
-            need a demo or anything else, our team </p>
-        <div>
+        <p class="psize">if you have a question about features, trials, pricing, need a demo or anything else, our team</p>
     </div>
     <div>
-        <p class="psize" >is ready to answer all your questions </p>
+        <p class="psize" >is ready to answer all your questions</p>
     </div>
 
     <div class="getbut">

@@ -457,16 +457,19 @@ p.merge {
         font-size: 40px;
         color: rgb(0, 0, 0);
     }
+
     .psize {
         /* margin-top: 30px; */
         font-family: 'Poppins', sans-serif;
         font-size: 20px;
-        padding-left: 30px;
+        padding-left: 151px;
         display: flex;
         flex-direction: column;
+        padding-right: 246px;
         justify-content: center;
         align-items: center;
     }
+
     .needtocallus {
         display: flex;
         flex-direction: column;
