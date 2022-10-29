@@ -43,53 +43,53 @@
         Features
     </div>
     <div class="infogrid1 palka">
-        <div class="appman">
+        <div class="appman boxfm">
             <div class="appmanh2">
                 <p>App management</p> <br>
             </div>
-            <div class="appmanp">
-                <p>Create a workplace in minutes. We</p><br>
-                <p> also want to make work easy for</p><br>
-                <p>workplace administrators. We make it </p><br>
-                <p>possible to create a role- and</p><br>
-                <p>conditions-based workplace that</p><br>
-                <p>combines all your current and future</p><br>
-                <p>technologies within one workplace.</p><br>
+            <div class="appmanp" style="line-height: 2.5;">
+                <p>Create a workplace in minutes. We</p>
+                <p> also want to make work easy for</p>
+                <p>workplace administrators. We make it </p>
+                <p>possible to create a role- and</p>
+                <p>conditions-based workplace that</p>
+                <p>combines all your current and future</p>
+                <p>technologies within one workplace.</p>
             </div>
 
         </div>
-        <div class="comminf palka">
+        <div class="comminf palka boxfm">
             <div class="appmanh2">
                 <p>Communication</p>
                 <p>and information</p><br>
             </div>
-            <div class="appman">
-                <p>Display information from applications</p><br>
-                <p>directly in Circle Workspace. At a </p><br>
-                <p>glance, see all your unread emails,</p><br>
-                <p>appointments, news, recently edited </p><br>
+            <div class="appman" style="line-height: 2.5;">
+                <p>Display information from applications</p>
+                <p>directly in Circle Workspace. At a </p>
+                <p>glance, see all your unread emails,</p>
+                <p>appointments, news, recently edited </p>
                 documents and more.
             </div>
         </div>
 
-        <div class="docman palka">
+        <div class="docman palka boxfm">
             <div class="appmanh2">
                 <p>Document</p>
                 <p>anagement </p> <br>
             </div>
-            <div class="appman">
-                <p>Bring all documents together in one</p><br>
-                <p>online workplace. So you can work </p><br>
-                <p>online and offline from any device</p><br>
-                <p>The documents app bundles and </p><br>
-                <p>brings structure to Office 365, the .</p><br>
+            <div class="appman" style="line-height: 2.5;">
+                <p>Bring all documents together in one</p>
+                <p>online workplace. So you can work </p>
+                <p>online and offline from any device</p>
+                <p>The documents app bundles and </p>
+                <p>brings structure to Office 365, the .</p>
                 fileserver, OneDrive and SharePoint.
             </div>
         </div>
     </div>
 
-    <div>
-        <a href=""><button class="buybutt"><h2>BUY</h2></button></a>
+    <div class="buybutt">
+        <h2>BUY</h2>
     </div>
 
     <div class="dots">
@@ -99,74 +99,74 @@
         Features
     </div>
     <div class="product2">
-        <div class="inter palka">
+        <div class="inter palka boxfm">
             <div class="big">
                 <p>Internal</p>
                 <p>communications</p><br>
             </div>
-            <div class="appman">
-                <p>Keep everyone informed, no matter</p><br>
-                <p>the change, things change – especially</p><br>
-                <p>in the world today. Keeping everyone</p><br>
-                <p>on the same page is a challenge for</p><br>
-                <p>global businesses. Circle D.O.T.S. makes</p><br>
-                <p>it easy to target and distribute news to</p><br>
-                <p>the right people, analyse the impact</p><br>
-                <p>and optimize the message. The result?</p><br>
-                <p>Everyone gets where you’re going.</p><br>
+            <div class="appman" style="line-height: 2.5;">
+                <p>Keep everyone informed, no matter</p>
+                <p>the change, things change – especially</p>
+                <p>in the world today. Keeping everyone</p>
+                <p>on the same page is a challenge for</p>
+                <p>global businesses. Circle D.O.T.S. makes</p>
+                <p>it easy to target and distribute news to</p>
+                <p>the right people, analyse the impact</p>
+                <p>and optimize the message. The result?</p>
+                <p>Everyone gets where you’re going.</p>
             </div>
         </div>
 
-        <div class="connect palka">
+        <div class="connect palka boxfm">
             <div class="big">
                 <p>Connect and engage</p><br>
             </div>
-            <div class="appman">
-                <p>Connect your colleagues and engage</p><br>
-                <p>communities. If people don’t know each</p><br>
-                <p>other, they can’t trust each other. If teams</p><br>
-                <p>don’t know what they’re doing, they can’t</p><br>
-                <p>help each other. Circle D.O.T.S. connects</p><br>
-                <p>teams and people in an organic way – by</p><br>
-                <p>letting them form Channels and Pages </p><br>
-                <p>around projects, interests or social</p><br>
-                <p>initiatives. No more unfamiliar faces, even</p><br>
+            <div class="appman" style="line-height: 2.5;">
+                <p>Connect your colleagues and engage</p>
+                <p>communities. If people don’t know each</p>
+                <p>other, they can’t trust each other. If teams</p>
+                <p>don’t know what they’re doing, they can’t</p>
+                <p>help each other. Circle D.O.T.S. connects</p>
+                <p>teams and people in an organic way – by</p>
+                <p>letting them form Channels and Pages </p>
+                <p>around projects, interests or social</p>
+                <p>initiatives. No more unfamiliar faces, even</p>
                 <p>if you’re fully remote.</p>
             </div>
         </div>
 
-        <div class="know palka">
+        <div class="know palka boxfm">
             <div class="big">
                 <p>Knowledge</p>
                 <p>management</p><br>
             </div>
-            <div class="appman">
-                <p>When people say “I love my job”,</p><br>
-                <p>they’re not talking about the 7.6</p><br>
-                <p>hours per week spent trying to</p><br>
-                <p>find information they need to do</p><br>
-                <p>their work. Circle D.O.T.S. brings all</p><br>
-                <p>your disparate resources, </p><br>
-                <p>applications and knowledge</p><br>
-                <p>together in one easily structured</p><br>
-                <p>and searchable home</p><br>
+            <div class="appman" style="line-height: 2.5;">
+                <p>When people say “I love my job”,</p
+                <p>they’re not talking about the 7.6</p>
+                <p>hours per week spent trying to</p>
+                <p>find information they need to do</p>
+                <p>their work. Circle D.O.T.S. brings all</p>
+                <p>your disparate resources, </p>
+                <p>applications and knowledge</p>
+                <p>together in one easily structured</p>
+                <p>and searchable home</p>
             </div>
         </div>
 
-        <div class="analis palka">
+        <div class="analis palka boxfm">
             <div class="big">
                 <p>Analyse and</p>
                 <p>optimize</p><br>
             </div>
-            <div class="appman">
-                <p>For a better working environment,</p><br>
-                <p>what can be measured, can be</p><br>
-                <p>improved. Circle D.O.T.S. helps you to</p><br>
-                <p>shift from a “send and forget” to an</p><br>
-                <p>“analyse and optimize” mindset,</p><br>
-                <p>making it easier to experiment and</p><br>
-                <p>evaluate in a data-driven way. The</p><br>
-                <p>secret weapon? The world’s</p><br>
+            <div class="appman" style="line-height: 2.5;">
+                <p>For a better working environment,</p>
+                <p>what can be measured, can be</p>
+                <p>improved. Circle D.O.T.S. helps you to</p>
+                <p>shift from a “send and forget” to an</p>
+                <p>“analyse and optimize” mindset,</p>
+                <p>making it easier to experiment and</p>
+                <p>evaluate in a data-driven way. The</p>
+                <p>secret weapon? The world’s</p>
                 friendliest Analytics dashboard.
             </div>
         </div>

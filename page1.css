@@ -465,6 +465,7 @@ p.merge {
 
 @media screen and (max-width: 640px) {
 
+
     .navigation {
         z-index: 3;
         display: flex;
@@ -559,6 +560,10 @@ p.merge {
         justify-content: center;
         align-content: center;
         margin-top: 20px;
+        width: 337px;
+        /*border: 1px solid #000000;*/
+        /*padding: 25px;*/
+        /*margin: 25px;*/
     }
 
     .infogrid1 {
@@ -570,7 +575,7 @@ p.merge {
     }
 
     .palka {
-        border-left: 1px solid #465C65;
+        border-left: 0px solid #465C65;
         height:auto;
     }
 
@@ -582,26 +587,25 @@ p.merge {
         flex-direction: column;
     }
 
+
     .buybutt {
-        width: 200px;
-        height: 74px;
+        text-decoration: none;
+        width: 120px;
+        height: 56px;
         background: #F58A07;
         border-radius: 27px;
         color: white;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 40px;
         font-family: 'Poppins', sans-serif;
         font-style: normal;
         font-weight: 600;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 106.5%;
-        text-decoration: none;
-        border: none;
-
     }
+
     .product2 {
         display: flex;
         flex-direction: column;
@@ -640,9 +644,10 @@ p.merge {
         margin-top: 20px;
     }
     .palka {
-        border-left: 1px solid #465C65;
+        border-left: 0px solid #465C65;
         height: auto;
         padding-left: 0px;
+
     }
     .know {
         margin-top: 10px;
@@ -698,6 +703,23 @@ p.merge {
 
     footer p {
         margin: 0;
+    }
+    .boxfm{
+        width: 365px;
+        border: 0px solid green;
+        padding: 25px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .features {
+        margin-top: 30px;
+        color: #F58A07;
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 30px;
     }
 
 }
