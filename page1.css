@@ -151,12 +151,17 @@ a.button {
 }
 
 .infogrid1 {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*margin-top: 30px;*/
+    /*color: #465C65;*/
+    /*justify-content: space-between;*/
+    /*width: 1000px;*/
     display: flex;
     flex-direction: row;
     margin-top: 30px;
     color: #465C65;
     justify-content: space-between;
-    width: 1000px;
 }
 
 .appman {
@@ -538,9 +543,10 @@ p.merge {
         align-items: center;
     }
 
+
     .ourpack {
-        width: 575px;
-        height: 78px;
+        width: 360px;
+        height: 66px;
         left: 183px;
         top: 417px;
         display: flex;
@@ -552,6 +558,7 @@ p.merge {
         border-radius: 30px;
         margin-top: 70px;
     }
+
 
     .appman {
         display: flex;
@@ -571,7 +578,6 @@ p.merge {
         flex-direction: column;
         margin-top: 30px;
         color: #465C65;
-        width: 50% !important;
     }
 
     .palka {
@@ -613,8 +619,8 @@ p.merge {
         color: #465C65;
     }
     .dots {
-        width: 575px;
-        height: 78px;
+        width: 360px;
+        height: 66px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -721,7 +727,38 @@ p.merge {
         font-size: 30px;
         line-height: 30px;
     }
-
+    .ourpack h2 {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 72px;
+        letter-spacing: -0.03em;
+        color: #FFFFFF;
+    }
+    .dots h2 {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 72px;
+        letter-spacing: -0.03em;
+        color: #FFFFFF;
+    }
+    .keybordstuff p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        color: #1D3444;
+    }
+    .keybordstuff {
+        height: 217px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 75px;
+        background: rgba(220,241,251,.6);
+    }
 }
 
 
