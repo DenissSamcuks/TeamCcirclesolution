@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="page1.css" rel="stylesheet" type=text/css>
+    <link href="page1.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="email.js"></script>
     <script src="main.js" defer type="text/javascript"></script>
     <meta charset="UTF-8">

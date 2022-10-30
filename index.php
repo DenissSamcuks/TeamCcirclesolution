@@ -36,7 +36,7 @@
     <div class="content1">
         <div class="pad">
           <h1>We provide<br>software solutions<br>to businesses<br>globally</h1>
-          <a href="Packages.html"><button class="button button2">View Packages</button></a> 
+          <a href="Packages.php"><button class="button button2">View Packages</button></a> 
         </div>
 
         <div>

@@ -1,7 +1,10 @@
+@import url(https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Poppins:ital,wght@0,400;0,600;1,500;1,600&family=Roboto:wght@300;400;500&display=swap);
 * {
-	font-family: Poppins, Asap, Roboto sans-serif;
-	box-sizing: border-box;
-	margin: 0px;
+    font-family: Poppins, Asap, Roboto sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url("backnav (1).png");
 }
 
 body {

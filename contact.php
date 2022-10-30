@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="page2.css" rel="stylesheet" type=text/css>
+    <link href="page2.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="email.js"></script>
     <script src="main.js" defer type="text/javascript"></script>
     <title>Circle Solutions</title>
@@ -17,11 +17,11 @@
         </div>
 
         <ul id="navigation" data-visible="false" class="navigation">
-            <li><a href="index.html" class="style">Home</a></li>
-            <li><a href="reviews.html" class="style">Reviews</a></li>
-            <li><a href="values.html" class="style">Values</a></li>
+            <li><a href="index.php" class="style">Home</a></li>
+            <li><a href="reviews.php" class="style">Reviews</a></li>
+            <li><a href="values.php" class="style">Values</a></li>
             <li><a href="contact.php" class="style">Contact</a></li>
-            <li><a href="faq.html" class="style">FAQ</a></li>
+            <li><a href="faq.php" class="style">FAQ</a></li>
             <li><a href="Packages.php"><button class="button button1">Our Packages</button></a></li>
         </ul>
 
@@ -64,7 +64,7 @@
                 <p>be afraid to call us on this</p>
                 number:
             </div>
-            <img src="whatsapp.png" alt="img" height="33px" width="33px" style="margin-top: 20px"></a><br>
+            <img src="img/whatsapp.png" alt="img" height="40px" width="70px" style="margin-top: 20px"></a><br>
             <p style="margin-bottom: 10px"  >+31 6 0000 0000</p>
         </div>
 
@@ -72,9 +72,9 @@
             <h2 class="needtocallush2">Contact us on
                 <p>social media</p></h2>
             <div class="pic">
-                <a href="https://www.instagram.com/"><img src="insta.png" alt="img" height="60px" width="60px" style="margin-right: 20px"></a>
-                <a href="https://www.facebook.com/"><img src="facebook.png" alt="img" height="60px" width="60px"></a>
-                <a href="https://twitter.com/"><img src="twitter.png" alt="img" height="60px" width="60px" style="margin-left: 20px"></a>
+                <a href="https://www.instagram.com/"><img src="img/instagram.png" alt="img" height="60px" width="60px" style="margin-right: 20px"></a>
+                <a href="https://www.facebook.com/"><img src="img/facebook.png" alt="img" height="60px" width="60px"></a>
+                <a href="https://twitter.com/"><img src="img/twitter.png" alt="img" height="60px" width="60px" style="margin-left: 20px"></a>
             </div>
         </div>
     </div>
